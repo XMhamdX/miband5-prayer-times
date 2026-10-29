@@ -1,0 +1,25 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Runtime output / cache / logs
+out/
+cache/
+logs/
+*.bin
+
+# Generated watch-face artifacts
+watchface/watchface.json
+watchface/watchface_packed*
+watchface/*.png
+watchface/*.gif
+
+# Local delivery config
+.env
+
+# Proprietary / third-party content — supply your own locally (see READMEs)
+fonts/*.ttf
+fonts/*.otf
+tools/WatchFace/*
+!tools/WatchFace/README.md

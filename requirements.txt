@@ -1,0 +1,5 @@
+# Pillow must be built with raqm for correct Arabic text shaping.
+# On Debian/Ubuntu the system package python3-pil already includes it
+# (libraqm0); on Windows the pip wheel includes raqm.
+Pillow>=10.0
+requests>=2.28
